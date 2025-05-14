@@ -86,18 +86,21 @@ namespace PipelineDesigner.Data
             return nodes;
         }
 
-        public void AddNode(Node node)
+        public int AddNode(Node node)
         {
             using (var conn = new SQLiteConnection(_connectionString))
             {
                 conn.Open();
-                var cmd = new SQLiteCommand("INSERT INTO Nodes (PipelineId, X, Y) VALUES (@p, @x, @y)", conn);
-                cmd.Parameters.AddWithValue("@p", node.PipelineId);
-                cmd.Parameters.AddWithValue("@x", node.X);
-                cmd.Parameters.AddWithValue("@y", node.Y);
-                cmd.ExecuteNonQuery();
+                using (var cmd = new SQLiteCommand("INSERT INTO Nodes (PipelineId, X, Y) VALUES (@p, @x, @y); SELECT last_insert_rowid();", conn))
+                {
+                    cmd.Parameters.AddWithValue("@p", node.PipelineId);
+                    cmd.Parameters.AddWithValue("@x", node.X);
+                    cmd.Parameters.AddWithValue("@y", node.Y);
+                    return Convert.ToInt32(cmd.ExecuteScalar());
+                }
             }
         }
+
 
         public void DeleteNode(int id)
         {

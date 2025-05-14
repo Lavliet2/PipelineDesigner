@@ -11,6 +11,7 @@ D:\Projects\temp\PipelineDesigner\PipelineDesigner\bin\Debug\System.Data.SQLite.
 D:\Projects\temp\PipelineDesigner\PipelineDesigner\bin\Debug\System.Data.SQLite.xml
 D:\Projects\temp\PipelineDesigner\PipelineDesigner\obj\Debug\Pipeline.30B8BC46.Up2Date
 D:\Projects\temp\PipelineDesigner\PipelineDesigner\obj\Debug\PipelineDesigner.MainForm.resources
+D:\C#\PipelineDesigner\PipelineDesigner\bin\Debug\Database\pipeline.db
 D:\C#\PipelineDesigner\PipelineDesigner\bin\Debug\PipelineDesigner.exe.config
 D:\C#\PipelineDesigner\PipelineDesigner\bin\Debug\PipelineDesigner.exe
 D:\C#\PipelineDesigner\PipelineDesigner\bin\Debug\PipelineDesigner.pdb
@@ -24,4 +25,3 @@ D:\C#\PipelineDesigner\PipelineDesigner\obj\Debug\PipelineDesigner.csproj.CoreCo
 D:\C#\PipelineDesigner\PipelineDesigner\obj\Debug\Pipeline.30B8BC46.Up2Date
 D:\C#\PipelineDesigner\PipelineDesigner\obj\Debug\PipelineDesigner.exe
 D:\C#\PipelineDesigner\PipelineDesigner\obj\Debug\PipelineDesigner.pdb
-D:\C#\PipelineDesigner\PipelineDesigner\bin\Debug\Database\pipeline.db
