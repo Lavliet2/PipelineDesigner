@@ -4,10 +4,11 @@ using PipelineDesigner.Services;
 using System;
 using System.Collections.Generic;
 using System.Data;
-using System.Drawing;
 using System.IO;
 using System.Linq;
 using System.Windows.Forms;
+using System.Windows.Forms.DataVisualization.Charting;
+using System.Drawing;
 
 namespace PipelineDesigner
 {
@@ -21,19 +22,32 @@ namespace PipelineDesigner
         {
             InitializeComponent();
 
-            string dbFolder = System.IO.Path.Combine(Application.StartupPath, "Database");
-            if (!System.IO.Directory.Exists(dbFolder))
-                System.IO.Directory.CreateDirectory(dbFolder);
+            string dbFolder = Path.Combine(Application.StartupPath, "Database");
+            if (!Directory.Exists(dbFolder))
+                Directory.CreateDirectory(dbFolder);
 
-            connStr = $"Data Source={System.IO.Path.Combine(dbFolder, "pipeline.db")};Version=3;";
+            connStr = $"Data Source={Path.Combine(dbFolder, "pipeline.db")};Version=3;";
             _repo = new PipelineRepository(connStr);
             _nodes = new List<Node>();
-            if (!System.IO.File.Exists(Path.Combine(dbFolder, "pipeline.db")))
+
+            if (!File.Exists(Path.Combine(dbFolder, "pipeline.db")))
             {
                 DatabaseInitializer.Initialize(connStr);
             }
-            //MessageBox.Show(connStr);
+
+            SetupChart();
             LoadNodes();
+        }
+
+        private void SetupChart()
+        {
+            chart1.Series.Clear();
+            chart1.ChartAreas[0].AxisX.Title = "X";
+            chart1.ChartAreas[0].AxisY.Title = "Y";
+            chart1.ChartAreas[0].AxisX.Minimum = 0;
+            chart1.ChartAreas[0].AxisY.Minimum = 0;
+            chart1.ChartAreas[0].AxisX.MajorGrid.LineColor = Color.LightGray;
+            chart1.ChartAreas[0].AxisY.MajorGrid.LineColor = Color.LightGray;
         }
 
         private void LoadNodes()
@@ -41,30 +55,34 @@ namespace PipelineDesigner
             _nodes = _repo.GetNodes();
 
             var table = new DataTable();
+            table.Columns.Add("Id", typeof(int));
             table.Columns.Add("№", typeof(int));
             table.Columns.Add("X", typeof(double));
             table.Columns.Add("Y", typeof(double));
 
-            foreach (var group in _nodes.GroupBy(n => n.PipelineId))
+            foreach (var node in _nodes)
             {
-                foreach (var node in group)
-                {
-                    table.Rows.Add(group.Key, node.X, node.Y);
-                }
+                table.Rows.Add(node.Id, node.PipelineId, node.X, node.Y);
             }
 
             dataGridView1.DataSource = table;
+            if (dataGridView1.Columns["Id"] != null)
+                dataGridView1.Columns["Id"].Visible = false;
+
+            DrawChart(_nodes);
         }
 
         private void btnDraw_Click(object sender, EventArgs e)
         {
-            DrawPipelines(_nodes);
+            DrawChart(_nodes);
         }
 
         private void btnCheck_Click(object sender, EventArgs e)
         {
-            var collisions = CollisionChecker.FindCollisions(_nodes);
-            var collisionSet = collisions.Select(c => (c.X, c.Y)).ToHashSet();
+            var collisions = CollisionChecker.FindSegmentCollisions(_nodes);
+            var collisionSet = collisions.Select(n => (n.X, n.Y)).ToHashSet();
+            //var collisionCoords = CollisionChecker.FindCollisionCoordinates(_nodes);
+            //var collisionSet = new HashSet<(double, double)>(collisionCoords);
 
             foreach (DataGridViewRow row in dataGridView1.Rows)
             {
@@ -73,7 +91,7 @@ namespace PipelineDesigner
                 row.DefaultCellStyle.BackColor = collisionSet.Contains((x, y)) ? Color.Gold : Color.White;
             }
 
-            DrawPipelines(_nodes, collisionSet);
+            DrawChart(_nodes, collisionSet);
         }
 
         private void btnAdd_Click(object sender, EventArgs e)
@@ -87,51 +105,43 @@ namespace PipelineDesigner
         {
             if (dataGridView1.CurrentRow != null)
             {
-                double x = Convert.ToDouble(dataGridView1.CurrentRow.Cells["X"].Value);
-                double y = Convert.ToDouble(dataGridView1.CurrentRow.Cells["Y"].Value);
-
-                var toDelete = _nodes.FirstOrDefault(n => n.X == x && n.Y == y);
-                if (toDelete != null)
-                {
-                    _repo.DeleteNode(toDelete.Id);
-                    LoadNodes();
-                }
+                int id = Convert.ToInt32(dataGridView1.CurrentRow.Cells["Id"].Value);
+                _repo.DeleteNode(id);
+                LoadNodes();
             }
         }
 
-        private void DrawPipelines(List<Node> nodes, HashSet<(double X, double Y)> highlight = null)
+        private void DrawChart(List<Node> nodes, HashSet<(double X, double Y)> highlight = null)
         {
-            var g = panel1.CreateGraphics();
-            g.Clear(Color.White);
+            chart1.Series.Clear();
 
-            var colors = new[] { Pens.Blue, Pens.Orange, Pens.Gray };
-            var brushes = new[] { Brushes.Blue, Brushes.Orange, Brushes.Gray };
+            var palette = new[] { Color.Blue, Color.Orange, Color.Gray };
 
-            var groups = nodes.GroupBy(n => n.PipelineId).ToList();
-            for (int index = 0; index < groups.Count; index++)
+            var grouped = nodes.GroupBy(n => n.PipelineId).ToList();
+
+            for (int i = 0; i < grouped.Count; i++)
             {
-                var group = groups[index].OrderBy(n => n.Id).ToList();
-                var pen = colors[index % colors.Length];
-                var brush = brushes[index % brushes.Length];
-
-                for (int i = 0; i < group.Count - 1; i++)
+                var group = grouped[i].OrderBy(n => n.Id).ToList();
+                var series = new Series($"Pipeline {group[0].PipelineId}")
                 {
-                    g.DrawLine(pen,
-                        (float)group[i].X * 40, (float)(300 - group[i].Y * 20),
-                        (float)group[i + 1].X * 40, (float)(300 - group[i + 1].Y * 20));
-                }
+                    ChartType = SeriesChartType.Line,
+                    Color = palette[i % palette.Length],
+                    BorderWidth = 2,
+                    MarkerStyle = MarkerStyle.Circle,
+                    MarkerSize = 6
+                };
 
                 foreach (var node in group)
                 {
-                    Brush b = (highlight != null && highlight.Contains((node.X, node.Y))) ? Brushes.Gold : brush;
-                    g.FillEllipse(b, (float)(node.X * 40 - 3), (float)(300 - node.Y * 20 - 3), 6, 6);
+                    var point = series.Points.AddXY(node.X, node.Y);
+                    if (highlight != null && highlight.Contains((node.X, node.Y)))
+                    {
+                        series.Points[point].MarkerColor = Color.Red;
+                    }
                 }
-            }
 
-            // легенда
-            g.DrawString("1", new Font("Arial", 8), Brushes.Blue, 500, 20);
-            g.DrawString("2", new Font("Arial", 8), Brushes.Orange, 500, 40);
-            g.DrawString("3", new Font("Arial", 8), Brushes.Gray, 500, 60);
+                chart1.Series.Add(series);
+            }
         }
     }
 }
