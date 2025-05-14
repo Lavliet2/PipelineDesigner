@@ -43,6 +43,12 @@ namespace PipelineDesigner
         private void SetupChart()
         {
             chart1.Series.Clear();
+            chart1.Legends.Add(new Legend("Legend")
+            {
+                Docking = Docking.Bottom,
+                Alignment = StringAlignment.Center,
+                Font = new Font("Arial", 9),
+            });
             chart1.ChartAreas[0].AxisX.Title = "X";
             chart1.ChartAreas[0].AxisY.Title = "Y";
             chart1.ChartAreas[0].AxisX.Minimum = 0;
@@ -157,19 +163,33 @@ namespace PipelineDesigner
         private void DrawChart(List<Node> nodes, HashSet<(double X, double Y)> highlight = null)
         {
             chart1.Series.Clear();
+            chart1.Legends.Clear();
+
+            chart1.Legends.Add(new Legend("Legend")
+            {
+                Docking = Docking.Bottom,
+                Alignment = StringAlignment.Center,
+                Font = new Font("Arial", 9)
+            });
+
             var palette = new[] { Color.Blue, Color.Orange, Color.Green, Color.Purple };
 
             var grouped = nodes.GroupBy(n => n.PipelineId).ToList();
             for (int i = 0; i < grouped.Count; i++)
             {
                 var group = grouped[i].OrderBy(n => n.Id).ToList();
-                var series = new Series($"Труба {group[0].PipelineId}")
+                var pipeId = group[0].PipelineId;
+                var pipeName = _pipelines.FirstOrDefault(p => p.Id == pipeId)?.Name ?? $"Труба {pipeId}";
+
+                var series = new Series(pipeName)
                 {
                     ChartType = SeriesChartType.Line,
                     Color = palette[i % palette.Length],
                     BorderWidth = 2,
                     MarkerStyle = MarkerStyle.Circle,
-                    MarkerSize = 6
+                    MarkerSize = 6,
+                    Legend = "Legend",
+                    LegendText = pipeName
                 };
 
                 foreach (var node in group)
