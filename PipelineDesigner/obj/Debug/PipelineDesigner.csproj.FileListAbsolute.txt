@@ -1,0 +1,13 @@
+D:\Projects\temp\PipelineDesigner\PipelineDesigner\bin\Debug\PipelineDesigner.exe.config
+D:\Projects\temp\PipelineDesigner\PipelineDesigner\bin\Debug\PipelineDesigner.exe
+D:\Projects\temp\PipelineDesigner\PipelineDesigner\bin\Debug\PipelineDesigner.pdb
+D:\Projects\temp\PipelineDesigner\PipelineDesigner\obj\Debug\PipelineDesigner.csproj.AssemblyReference.cache
+D:\Projects\temp\PipelineDesigner\PipelineDesigner\obj\Debug\PipelineDesigner.Properties.Resources.resources
+D:\Projects\temp\PipelineDesigner\PipelineDesigner\obj\Debug\PipelineDesigner.csproj.GenerateResource.cache
+D:\Projects\temp\PipelineDesigner\PipelineDesigner\obj\Debug\PipelineDesigner.csproj.CoreCompileInputs.cache
+D:\Projects\temp\PipelineDesigner\PipelineDesigner\obj\Debug\PipelineDesigner.exe
+D:\Projects\temp\PipelineDesigner\PipelineDesigner\obj\Debug\PipelineDesigner.pdb
+D:\Projects\temp\PipelineDesigner\PipelineDesigner\bin\Debug\System.Data.SQLite.dll
+D:\Projects\temp\PipelineDesigner\PipelineDesigner\bin\Debug\System.Data.SQLite.xml
+D:\Projects\temp\PipelineDesigner\PipelineDesigner\obj\Debug\Pipeline.30B8BC46.Up2Date
+D:\Projects\temp\PipelineDesigner\PipelineDesigner\obj\Debug\PipelineDesigner.MainForm.resources
