@@ -110,7 +110,13 @@ namespace PipelineDesigner
             if (!string.IsNullOrWhiteSpace(name))
             {
                 _repo.AddPipeline(name);
+
                 LoadPipelines();
+
+                _selectedPipeline = _pipelines.Last(); 
+                comboPipelines.SelectedItem = _selectedPipeline;
+
+                LoadNodes();
             }
         }
 
