@@ -7,9 +7,6 @@
       "RelativeMoniker": "D:0:0:{5CCD5C15-F922-402B-B0BF-2A1781215427}|PipelineDesigner\\PipelineDesigner.csproj|solutionrelative:pipelinedesigner\\ui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lavliet\\Downloads\\PipelineRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5CCD5C15-F922-402B-B0BF-2A1781215427}|PipelineDesigner\\PipelineDesigner.csproj|d:\\c#\\pipelinedesigner\\pipelinedesigner\\data\\pipelinerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5CCD5C15-F922-402B-B0BF-2A1781215427}|PipelineDesigner\\PipelineDesigner.csproj|solutionrelative:pipelinedesigner\\data\\pipelinerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -18,7 +15,14 @@
       "RelativeMoniker": "D:0:0:{5CCD5C15-F922-402B-B0BF-2A1781215427}|PipelineDesigner\\PipelineDesigner.csproj|solutionrelative:pipelinedesigner\\ui\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{5CCD5C15-F922-402B-B0BF-2A1781215427}|PipelineDesigner\\PipelineDesigner.csproj|d:\\c#\\pipelinedesigner\\pipelinedesigner\\ui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5CCD5C15-F922-402B-B0BF-2A1781215427}|PipelineDesigner\\PipelineDesigner.csproj|solutionrelative:pipelinedesigner\\ui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lavliet\\Downloads\\MainForm.Designer.Final.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Lavliet\\Downloads\\PipelineRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,11 +32,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 183,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "D:\\C#\\PipelineDesigner\\PipelineDesigner\\UI\\MainForm.cs",
+              "RelativeDocumentMoniker": "PipelineDesigner\\UI\\MainForm.cs",
+              "ToolTip": "D:\\C#\\PipelineDesigner\\PipelineDesigner\\UI\\MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]*",
+              "RelativeToolTip": "PipelineDesigner\\UI\\MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T11:59:35.205Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "PipelineRepository.cs",
               "DocumentMoniker": "C:\\Users\\Lavliet\\Downloads\\PipelineRepository.cs",
               "ToolTip": "C:\\Users\\Lavliet\\Downloads\\PipelineRepository.cs",
@@ -43,13 +59,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "PipelineRepository.cs",
               "DocumentMoniker": "D:\\C#\\PipelineDesigner\\PipelineDesigner\\Data\\PipelineRepository.cs",
               "RelativeDocumentMoniker": "PipelineDesigner\\Data\\PipelineRepository.cs",
               "ToolTip": "D:\\C#\\PipelineDesigner\\PipelineDesigner\\Data\\PipelineRepository.cs",
               "RelativeToolTip": "PipelineDesigner\\Data\\PipelineRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAmwHMAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-14T11:48:36.962Z",
               "EditorCaption": ""
@@ -60,20 +76,20 @@
               "Title": "MainForm.Designer.Final.cs",
               "DocumentMoniker": "C:\\Users\\Lavliet\\Downloads\\MainForm.Designer.Final.cs",
               "ToolTip": "C:\\Users\\Lavliet\\Downloads\\MainForm.Designer.Final.cs",
-              "ViewState": "AgIAAGUAAAAAAAAAAAAmwIQAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAAwIQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-14T11:48:08.901Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "MainForm.Designer.cs",
               "DocumentMoniker": "D:\\C#\\PipelineDesigner\\PipelineDesigner\\UI\\MainForm.Designer.cs",
               "RelativeDocumentMoniker": "PipelineDesigner\\UI\\MainForm.Designer.cs",
-              "ToolTip": "D:\\C#\\PipelineDesigner\\PipelineDesigner\\UI\\MainForm.Designer.cs",
-              "RelativeToolTip": "PipelineDesigner\\UI\\MainForm.Designer.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAmwIQAAAABAAAAAAAAAA==",
+              "ToolTip": "D:\\C#\\PipelineDesigner\\PipelineDesigner\\UI\\MainForm.Designer.cs*",
+              "RelativeToolTip": "PipelineDesigner\\UI\\MainForm.Designer.cs*",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAowG0AAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-14T11:47:33.4Z",
               "EditorCaption": ""
@@ -84,9 +100,9 @@
               "Title": "MainForm.cs",
               "DocumentMoniker": "D:\\C#\\PipelineDesigner\\PipelineDesigner\\UI\\MainForm.cs",
               "RelativeDocumentMoniker": "PipelineDesigner\\UI\\MainForm.cs",
-              "ToolTip": "D:\\C#\\PipelineDesigner\\PipelineDesigner\\UI\\MainForm.cs",
-              "RelativeToolTip": "PipelineDesigner\\UI\\MainForm.cs",
-              "ViewState": "AgIAAFkAAAAAAAAAAAD4v2gAAAAWAAAAAAAAAA==",
+              "ToolTip": "D:\\C#\\PipelineDesigner\\PipelineDesigner\\UI\\MainForm.cs*",
+              "RelativeToolTip": "PipelineDesigner\\UI\\MainForm.cs*",
+              "ViewState": "AgIAAM0AAAAAAAAAAAAUwN4AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-14T11:14:46.929Z",
               "EditorCaption": ""

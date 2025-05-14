@@ -109,5 +109,18 @@ namespace PipelineDesigner.Data
                 cmd.ExecuteNonQuery();
             }
         }
+
+        public void UpdateNode(Node node)
+        {
+            using (var conn = new SQLiteConnection(_connectionString))
+            {
+                conn.Open();
+                var cmd = new SQLiteCommand("UPDATE Nodes SET X = @x, Y = @y WHERE Id = @id", conn);
+                cmd.Parameters.AddWithValue("@x", node.X);
+                cmd.Parameters.AddWithValue("@y", node.Y);
+                cmd.Parameters.AddWithValue("@id", node.Id);
+                cmd.ExecuteNonQuery();
+            }
+        }
     }
 }

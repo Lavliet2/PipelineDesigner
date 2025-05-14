@@ -9,6 +9,7 @@
         private System.Windows.Forms.Label lblX;
         private System.Windows.Forms.Label lblY;
         private System.Windows.Forms.Button btnAddPipeline;
+        private System.Windows.Forms.Button btnDeletePipeline;
         private System.Windows.Forms.Button btnAdd;
         private System.Windows.Forms.Button btnDelete;
         private System.Windows.Forms.Button btnDraw;
@@ -44,14 +45,22 @@
 
             // comboPipelines
             this.comboPipelines.Location = new System.Drawing.Point(12, 12);
-            this.comboPipelines.Size = new System.Drawing.Size(200, 21);
+            this.comboPipelines.Size = new System.Drawing.Size(100, 21);
             this.comboPipelines.SelectedIndexChanged += new System.EventHandler(this.comboPipelines_SelectedIndexChanged);
 
             // btnAddPipeline
-            this.btnAddPipeline.Location = new System.Drawing.Point(220, 10);
+            this.btnAddPipeline.Location = new System.Drawing.Point(120, 10);
             this.btnAddPipeline.Size = new System.Drawing.Size(120, 23);
             this.btnAddPipeline.Text = "Добавить трубу";
             this.btnAddPipeline.Click += new System.EventHandler(this.btnAddPipeline_Click);
+
+            // btnDeletePipeline
+            this.btnDeletePipeline = new System.Windows.Forms.Button();
+            this.btnDeletePipeline.Location = new System.Drawing.Point(250, 10);
+            this.btnDeletePipeline.Size = new System.Drawing.Size(120, 23);
+            this.btnDeletePipeline.Text = "Удалить трубу";
+            this.btnDeletePipeline.Click += new System.EventHandler(this.btnDeletePipeline_Click);
+            this.Controls.Add(this.btnDeletePipeline);
 
             // lblX
             this.lblX.Text = "X:";
@@ -99,6 +108,7 @@
             this.dataGridView1.Location = new System.Drawing.Point(12, 110);
             this.dataGridView1.Size = new System.Drawing.Size(400, 300);
             this.dataGridView1.Name = "dataGridView1";
+            dataGridView1.CellValueChanged += dataGridView1_CellValueChanged;
 
             // chart1
             this.chart1.Location = new System.Drawing.Point(430, 12);

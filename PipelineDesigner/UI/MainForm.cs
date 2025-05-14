@@ -184,5 +184,45 @@ namespace PipelineDesigner
                 chart1.Series.Add(series);
             }
         }
+        private void btnDeletePipeline_Click(object sender, EventArgs e)
+        {
+            if (_selectedPipeline == null) return;
+
+            var confirm = MessageBox.Show(
+                $"Удалить трубопровод '{_selectedPipeline.Name}' вместе со всеми координатами?",
+                "Подтвердите удаление",
+                MessageBoxButtons.YesNo);
+
+            if (confirm == DialogResult.Yes)
+            {
+                _repo.DeletePipeline(_selectedPipeline.Id);
+                LoadPipelines();
+            }
+        }
+
+        private void dataGridView1_CellValueChanged(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.RowIndex >= 0)
+            {
+                var row = dataGridView1.Rows[e.RowIndex];
+
+                if (row.Cells["Id"].Value == null) return;
+
+                int id = Convert.ToInt32(row.Cells["Id"].Value);
+                double x = Convert.ToDouble(row.Cells["X"].Value);
+                double y = Convert.ToDouble(row.Cells["Y"].Value);
+
+                var node = new Node
+                {
+                    Id = id,
+                    X = x,
+                    Y = y,
+                    PipelineId = _selectedPipeline.Id
+                };
+
+                _repo.UpdateNode(node);
+                LoadNodes();
+            }
+        }
     }
 }
