@@ -1,58 +1,64 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Projects\\temp\\PipelineDesigner\\",
+  "WorkspaceRootPath": "D:\\C#\\PipelineDesigner\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5CCD5C15-F922-402B-B0BF-2A1781215427}|PipelineDesigner\\PipelineDesigner.csproj|d:\\projects\\temp\\pipelinedesigner\\pipelinedesigner\\ui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|PipelineDesigner||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CCD5C15-F922-402B-B0BF-2A1781215427}|PipelineDesigner\\PipelineDesigner.csproj|d:\\c#\\pipelinedesigner\\pipelinedesigner\\ui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5CCD5C15-F922-402B-B0BF-2A1781215427}|PipelineDesigner\\PipelineDesigner.csproj|solutionrelative:pipelinedesigner\\ui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5CCD5C15-F922-402B-B0BF-2A1781215427}|PipelineDesigner\\PipelineDesigner.csproj|d:\\projects\\temp\\pipelinedesigner\\pipelinedesigner\\database\\seed_data.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
-      "RelativeMoniker": "D:0:0:{5CCD5C15-F922-402B-B0BF-2A1781215427}|PipelineDesigner\\PipelineDesigner.csproj|solutionrelative:pipelinedesigner\\database\\seed_data.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5CCD5C15-F922-402B-B0BF-2A1781215427}|PipelineDesigner\\PipelineDesigner.csproj|d:\\projects\\temp\\pipelinedesigner\\pipelinedesigner\\ui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{5CCD5C15-F922-402B-B0BF-2A1781215427}|PipelineDesigner\\PipelineDesigner.csproj|D:\\C#\\PipelineDesigner\\pipelinedesigner\\ui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{5CCD5C15-F922-402B-B0BF-2A1781215427}|PipelineDesigner\\PipelineDesigner.csproj|solutionrelative:pipelinedesigner\\ui\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5CCD5C15-F922-402B-B0BF-2A1781215427}|PipelineDesigner\\PipelineDesigner.csproj|d:\\projects\\temp\\pipelinedesigner\\pipelinedesigner\\ui\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CCD5C15-F922-402B-B0BF-2A1781215427}|PipelineDesigner\\PipelineDesigner.csproj|solutionrelative:pipelinedesigner\\ui\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5CCD5C15-F922-402B-B0BF-2A1781215427}|PipelineDesigner\\PipelineDesigner.csproj|d:\\projects\\temp\\pipelinedesigner\\pipelinedesigner\\data\\databaseinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CCD5C15-F922-402B-B0BF-2A1781215427}|PipelineDesigner\\PipelineDesigner.csproj|solutionrelative:pipelinedesigner\\data\\databaseinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5CCD5C15-F922-402B-B0BF-2A1781215427}|PipelineDesigner\\PipelineDesigner.csproj|d:\\projects\\temp\\pipelinedesigner\\pipelinedesigner\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{5CCD5C15-F922-402B-B0BF-2A1781215427}|PipelineDesigner\\PipelineDesigner.csproj|solutionrelative:pipelinedesigner\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5CCD5C15-F922-402B-B0BF-2A1781215427}|PipelineDesigner\\PipelineDesigner.csproj|d:\\projects\\temp\\pipelinedesigner\\pipelinedesigner\\ui\\mainform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
-      "RelativeMoniker": "D:0:0:{5CCD5C15-F922-402B-B0BF-2A1781215427}|PipelineDesigner\\PipelineDesigner.csproj|solutionrelative:pipelinedesigner\\ui\\mainform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5CCD5C15-F922-402B-B0BF-2A1781215427}|PipelineDesigner\\PipelineDesigner.csproj|d:\\projects\\temp\\pipelinedesigner\\pipelinedesigner\\services\\collisionchecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CCD5C15-F922-402B-B0BF-2A1781215427}|PipelineDesigner\\PipelineDesigner.csproj|solutionrelative:pipelinedesigner\\services\\collisionchecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5CCD5C15-F922-402B-B0BF-2A1781215427}|PipelineDesigner\\PipelineDesigner.csproj|d:\\projects\\temp\\pipelinedesigner\\pipelinedesigner\\models\\pipeline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CCD5C15-F922-402B-B0BF-2A1781215427}|PipelineDesigner\\PipelineDesigner.csproj|solutionrelative:pipelinedesigner\\models\\pipeline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5CCD5C15-F922-402B-B0BF-2A1781215427}|PipelineDesigner\\PipelineDesigner.csproj|d:\\projects\\temp\\pipelinedesigner\\pipelinedesigner\\models\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CCD5C15-F922-402B-B0BF-2A1781215427}|PipelineDesigner\\PipelineDesigner.csproj|solutionrelative:pipelinedesigner\\models\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5CCD5C15-F922-402B-B0BF-2A1781215427}|PipelineDesigner\\PipelineDesigner.csproj|d:\\projects\\temp\\pipelinedesigner\\pipelinedesigner\\data\\pipelinerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5CCD5C15-F922-402B-B0BF-2A1781215427}|PipelineDesigner\\PipelineDesigner.csproj|D:\\C#\\PipelineDesigner\\pipelinedesigner\\data\\pipelinerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5CCD5C15-F922-402B-B0BF-2A1781215427}|PipelineDesigner\\PipelineDesigner.csproj|solutionrelative:pipelinedesigner\\data\\pipelinerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5CCD5C15-F922-402B-B0BF-2A1781215427}|PipelineDesigner\\PipelineDesigner.csproj|d:\\projects\\temp\\pipelinedesigner\\pipelinedesigner\\database\\seed_data.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "AbsoluteMoniker": "D:0:0:{5CCD5C15-F922-402B-B0BF-2A1781215427}|PipelineDesigner\\PipelineDesigner.csproj|D:\\C#\\PipelineDesigner\\pipelinedesigner\\data\\databaseinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CCD5C15-F922-402B-B0BF-2A1781215427}|PipelineDesigner\\PipelineDesigner.csproj|solutionrelative:pipelinedesigner\\data\\databaseinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CCD5C15-F922-402B-B0BF-2A1781215427}|PipelineDesigner\\PipelineDesigner.csproj|D:\\C#\\PipelineDesigner\\pipelinedesigner\\database\\seed_data.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{5CCD5C15-F922-402B-B0BF-2A1781215427}|PipelineDesigner\\PipelineDesigner.csproj|solutionrelative:pipelinedesigner\\database\\seed_data.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CCD5C15-F922-402B-B0BF-2A1781215427}|PipelineDesigner\\PipelineDesigner.csproj|D:\\C#\\PipelineDesigner\\pipelinedesigner\\ui\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CCD5C15-F922-402B-B0BF-2A1781215427}|PipelineDesigner\\PipelineDesigner.csproj|solutionrelative:pipelinedesigner\\ui\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CCD5C15-F922-402B-B0BF-2A1781215427}|PipelineDesigner\\PipelineDesigner.csproj|D:\\C#\\PipelineDesigner\\pipelinedesigner\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{5CCD5C15-F922-402B-B0BF-2A1781215427}|PipelineDesigner\\PipelineDesigner.csproj|solutionrelative:pipelinedesigner\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CCD5C15-F922-402B-B0BF-2A1781215427}|PipelineDesigner\\PipelineDesigner.csproj|D:\\C#\\PipelineDesigner\\pipelinedesigner\\ui\\mainform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{5CCD5C15-F922-402B-B0BF-2A1781215427}|PipelineDesigner\\PipelineDesigner.csproj|solutionrelative:pipelinedesigner\\ui\\mainform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CCD5C15-F922-402B-B0BF-2A1781215427}|PipelineDesigner\\PipelineDesigner.csproj|D:\\C#\\PipelineDesigner\\pipelinedesigner\\services\\collisionchecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CCD5C15-F922-402B-B0BF-2A1781215427}|PipelineDesigner\\PipelineDesigner.csproj|solutionrelative:pipelinedesigner\\services\\collisionchecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CCD5C15-F922-402B-B0BF-2A1781215427}|PipelineDesigner\\PipelineDesigner.csproj|D:\\C#\\PipelineDesigner\\pipelinedesigner\\models\\pipeline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CCD5C15-F922-402B-B0BF-2A1781215427}|PipelineDesigner\\PipelineDesigner.csproj|solutionrelative:pipelinedesigner\\models\\pipeline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CCD5C15-F922-402B-B0BF-2A1781215427}|PipelineDesigner\\PipelineDesigner.csproj|D:\\C#\\PipelineDesigner\\pipelinedesigner\\models\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CCD5C15-F922-402B-B0BF-2A1781215427}|PipelineDesigner\\PipelineDesigner.csproj|solutionrelative:pipelinedesigner\\models\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CCD5C15-F922-402B-B0BF-2A1781215427}|PipelineDesigner\\PipelineDesigner.csproj|D:\\C#\\PipelineDesigner\\pipelinedesigner\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5CCD5C15-F922-402B-B0BF-2A1781215427}|PipelineDesigner\\PipelineDesigner.csproj|solutionrelative:pipelinedesigner\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CCD5C15-F922-402B-B0BF-2A1781215427}|PipelineDesigner\\PipelineDesigner.csproj|d:\\c#\\pipelinedesigner\\pipelinedesigner\\database\\seed_data.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
       "RelativeMoniker": "D:0:0:{5CCD5C15-F922-402B-B0BF-2A1781215427}|PipelineDesigner\\PipelineDesigner.csproj|solutionrelative:pipelinedesigner\\database\\seed_data.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5CCD5C15-F922-402B-B0BF-2A1781215427}|PipelineDesigner\\PipelineDesigner.csproj|d:\\projects\\temp\\pipelinedesigner\\pipelinedesigner\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5CCD5C15-F922-402B-B0BF-2A1781215427}|PipelineDesigner\\PipelineDesigner.csproj|solutionrelative:pipelinedesigner\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5CCD5C15-F922-402B-B0BF-2A1781215427}|PipelineDesigner\\PipelineDesigner.csproj|d:\\c#\\pipelinedesigner\\pipelinedesigner\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,15 +68,27 @@
       "DocumentGroups": [
         {
           "DockedWidth": 183,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "PipelineDesigner",
+              "DocumentMoniker": "D:\\C#\\PipelineDesigner\\PipelineDesigner\\PipelineDesigner.csproj",
+              "RelativeDocumentMoniker": "PipelineDesigner\\PipelineDesigner.csproj",
+              "ToolTip": "D:\\C#\\PipelineDesigner\\PipelineDesigner\\PipelineDesigner.csproj*",
+              "RelativeToolTip": "PipelineDesigner\\PipelineDesigner.csproj*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-14T10:27:13.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "seed_data.sql ",
-              "DocumentMoniker": "D:\\Projects\\temp\\PipelineDesigner\\PipelineDesigner\\Database\\seed_data.sql",
+              "DocumentMoniker": "D:\\C#\\PipelineDesigner\\PipelineDesigner\\Database\\seed_data.sql",
               "RelativeDocumentMoniker": "PipelineDesigner\\Database\\seed_data.sql",
-              "ToolTip": "D:\\Projects\\temp\\PipelineDesigner\\PipelineDesigner\\Database\\seed_data.sql",
+              "ToolTip": "D:\\C#\\PipelineDesigner\\PipelineDesigner\\Database\\seed_data.sql",
               "RelativeToolTip": "PipelineDesigner\\Database\\seed_data.sql",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
               "WhenOpened": "2025-05-14T09:24:51.169Z",
@@ -78,24 +96,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainForm.cs",
-              "DocumentMoniker": "D:\\Projects\\temp\\PipelineDesigner\\PipelineDesigner\\UI\\MainForm.cs",
+              "DocumentMoniker": "D:\\C#\\PipelineDesigner\\PipelineDesigner\\UI\\MainForm.cs",
               "RelativeDocumentMoniker": "PipelineDesigner\\UI\\MainForm.cs",
-              "ToolTip": "D:\\Projects\\temp\\PipelineDesigner\\PipelineDesigner\\UI\\MainForm.cs",
+              "ToolTip": "D:\\C#\\PipelineDesigner\\PipelineDesigner\\UI\\MainForm.cs",
               "RelativeToolTip": "PipelineDesigner\\UI\\MainForm.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAxwBoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABkAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-14T09:14:51.198Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "MainForm.resx",
-              "DocumentMoniker": "D:\\Projects\\temp\\PipelineDesigner\\PipelineDesigner\\UI\\MainForm.resx",
+              "DocumentMoniker": "D:\\C#\\PipelineDesigner\\PipelineDesigner\\UI\\MainForm.resx",
               "RelativeDocumentMoniker": "PipelineDesigner\\UI\\MainForm.resx",
-              "ToolTip": "D:\\Projects\\temp\\PipelineDesigner\\PipelineDesigner\\UI\\MainForm.resx",
+              "ToolTip": "D:\\C#\\PipelineDesigner\\PipelineDesigner\\UI\\MainForm.resx",
               "RelativeToolTip": "PipelineDesigner\\UI\\MainForm.resx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
               "WhenOpened": "2025-05-14T09:14:42.849Z",
@@ -103,37 +121,35 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "App.config",
-              "DocumentMoniker": "D:\\Projects\\temp\\PipelineDesigner\\PipelineDesigner\\App.config",
+              "DocumentMoniker": "D:\\C#\\PipelineDesigner\\PipelineDesigner\\App.config",
               "RelativeDocumentMoniker": "PipelineDesigner\\App.config",
-              "ToolTip": "D:\\Projects\\temp\\PipelineDesigner\\PipelineDesigner\\App.config",
+              "ToolTip": "D:\\C#\\PipelineDesigner\\PipelineDesigner\\App.config",
               "RelativeToolTip": "PipelineDesigner\\App.config",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-05-14T08:50:13.153Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-14T08:50:13.153Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Projects\\temp\\PipelineDesigner\\PipelineDesigner\\Program.cs",
+              "DocumentMoniker": "D:\\C#\\PipelineDesigner\\PipelineDesigner\\Program.cs",
               "RelativeDocumentMoniker": "PipelineDesigner\\Program.cs",
-              "ToolTip": "D:\\Projects\\temp\\PipelineDesigner\\PipelineDesigner\\Program.cs",
+              "ToolTip": "D:\\C#\\PipelineDesigner\\PipelineDesigner\\Program.cs",
               "RelativeToolTip": "PipelineDesigner\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T08:50:00.016Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-14T08:50:00.016Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "MainForm.Designer.cs",
-              "DocumentMoniker": "D:\\Projects\\temp\\PipelineDesigner\\PipelineDesigner\\UI\\MainForm.Designer.cs",
+              "DocumentMoniker": "D:\\C#\\PipelineDesigner\\PipelineDesigner\\UI\\MainForm.Designer.cs",
               "RelativeDocumentMoniker": "PipelineDesigner\\UI\\MainForm.Designer.cs",
-              "ToolTip": "D:\\Projects\\temp\\PipelineDesigner\\PipelineDesigner\\UI\\MainForm.Designer.cs",
+              "ToolTip": "D:\\C#\\PipelineDesigner\\PipelineDesigner\\UI\\MainForm.Designer.cs",
               "RelativeToolTip": "PipelineDesigner\\UI\\MainForm.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -142,26 +158,25 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "CollisionChecker.cs",
-              "DocumentMoniker": "D:\\Projects\\temp\\PipelineDesigner\\PipelineDesigner\\Services\\CollisionChecker.cs",
+              "DocumentMoniker": "D:\\C#\\PipelineDesigner\\PipelineDesigner\\Services\\CollisionChecker.cs",
               "RelativeDocumentMoniker": "PipelineDesigner\\Services\\CollisionChecker.cs",
-              "ToolTip": "D:\\Projects\\temp\\PipelineDesigner\\PipelineDesigner\\Services\\CollisionChecker.cs",
+              "ToolTip": "D:\\C#\\PipelineDesigner\\PipelineDesigner\\Services\\CollisionChecker.cs",
               "RelativeToolTip": "PipelineDesigner\\Services\\CollisionChecker.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T08:42:53.245Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-14T08:42:53.245Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 3,
               "Title": "PipelineRepository.cs",
-              "DocumentMoniker": "D:\\Projects\\temp\\PipelineDesigner\\PipelineDesigner\\Data\\PipelineRepository.cs",
+              "DocumentMoniker": "D:\\C#\\PipelineDesigner\\PipelineDesigner\\Data\\PipelineRepository.cs",
               "RelativeDocumentMoniker": "PipelineDesigner\\Data\\PipelineRepository.cs",
-              "ToolTip": "D:\\Projects\\temp\\PipelineDesigner\\PipelineDesigner\\Data\\PipelineRepository.cs",
+              "ToolTip": "D:\\C#\\PipelineDesigner\\PipelineDesigner\\Data\\PipelineRepository.cs",
               "RelativeToolTip": "PipelineDesigner\\Data\\PipelineRepository.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwAsAAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBQAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-14T08:42:08.61Z",
               "EditorCaption": ""
@@ -170,48 +185,46 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "DatabaseInitializer.cs",
-              "DocumentMoniker": "D:\\Projects\\temp\\PipelineDesigner\\PipelineDesigner\\Data\\DatabaseInitializer.cs",
+              "DocumentMoniker": "D:\\C#\\PipelineDesigner\\PipelineDesigner\\Data\\DatabaseInitializer.cs",
               "RelativeDocumentMoniker": "PipelineDesigner\\Data\\DatabaseInitializer.cs",
-              "ToolTip": "D:\\Projects\\temp\\PipelineDesigner\\PipelineDesigner\\Data\\DatabaseInitializer.cs",
+              "ToolTip": "D:\\C#\\PipelineDesigner\\PipelineDesigner\\Data\\DatabaseInitializer.cs",
               "RelativeToolTip": "PipelineDesigner\\Data\\DatabaseInitializer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-14T08:41:10.963Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Pipeline.cs",
-              "DocumentMoniker": "D:\\Projects\\temp\\PipelineDesigner\\PipelineDesigner\\Models\\Pipeline.cs",
+              "DocumentMoniker": "D:\\C#\\PipelineDesigner\\PipelineDesigner\\Models\\Pipeline.cs",
               "RelativeDocumentMoniker": "PipelineDesigner\\Models\\Pipeline.cs",
-              "ToolTip": "D:\\Projects\\temp\\PipelineDesigner\\PipelineDesigner\\Models\\Pipeline.cs",
+              "ToolTip": "D:\\C#\\PipelineDesigner\\PipelineDesigner\\Models\\Pipeline.cs",
               "RelativeToolTip": "PipelineDesigner\\Models\\Pipeline.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T08:40:33.152Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-14T08:40:33.152Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "Node.cs",
-              "DocumentMoniker": "D:\\Projects\\temp\\PipelineDesigner\\PipelineDesigner\\Models\\Node.cs",
+              "DocumentMoniker": "D:\\C#\\PipelineDesigner\\PipelineDesigner\\Models\\Node.cs",
               "RelativeDocumentMoniker": "PipelineDesigner\\Models\\Node.cs",
-              "ToolTip": "D:\\Projects\\temp\\PipelineDesigner\\PipelineDesigner\\Models\\Node.cs",
+              "ToolTip": "D:\\C#\\PipelineDesigner\\PipelineDesigner\\Models\\Node.cs",
               "RelativeToolTip": "PipelineDesigner\\Models\\Node.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T08:39:24.5Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-14T08:39:24.5Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "D:\\Projects\\temp\\PipelineDesigner\\PipelineDesigner\\UI\\MainForm.cs",
+              "DocumentMoniker": "D:\\C#\\PipelineDesigner\\PipelineDesigner\\UI\\MainForm.cs",
               "RelativeDocumentMoniker": "PipelineDesigner\\UI\\MainForm.cs",
-              "ToolTip": "D:\\Projects\\temp\\PipelineDesigner\\PipelineDesigner\\UI\\MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "ToolTip": "D:\\C#\\PipelineDesigner\\PipelineDesigner\\UI\\MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "RelativeToolTip": "PipelineDesigner\\UI\\MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-14T08:36:16.02Z",
